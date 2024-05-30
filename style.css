@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #32F69E;
+}
+
+canvas {
+    position: relative;
+    border: 2px solid #f8f4f4;
+    border-radius: 5px;
+    display: block;
+      margin: 0 auto;
+      background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPVuSCCA3Bjk00S2vIjKRJlFifQZCVWD3BXq1Kzunmsw&s') no-repeat center;
+      background-size:cover;
+
+}
+
+.box-container{
+   
+    position:relative;
+ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+   
+}
+  .btn{
+
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    background: #48d419;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  @media( max-width:965px){
+.box-container{
+position: absolute;
+
+ display: inline;
+ justify-content: center;
+ top:5em;
+
+
+
+}
+  }
